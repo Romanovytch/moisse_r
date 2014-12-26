@@ -5,30 +5,18 @@
 ** Login   <moisse_r@epitech.net>
 **
 ** Started on  Fri Dec 26 21:46:52 2014 Raphael Moisset
-** Last update Fri Dec 26 22:24:37 2014 Raphael Moisset
+** Last update Fri Dec 26 23:47:51 2014 Raphael Moisset
 */
 
 #include "brightcode.h"
 
 void		star_pyramid(unsigned int i)
 {
-  unsigned int	j;
-  unsigned int	k;
-
-  k = i;
-  j = 0;
-  if (i == 0)
-    bc_write_char('\n');
-  while (k > 0)
-    {
-      bc_write_char(' ');
-      k = k - 1;
-    }
-  while (j < i)
-    {
-      bc_write_char('*');
-      j++;
-    }
-  bc_write_char('\n');
+  bc_write_char('c');
+  bc_write_char('o');
+  bc_write_char('r');
+  bc_write_char('t');
+  bc_write_char('e');
+  bc_write_char('x');
   bc_write_char('\n');
 }
